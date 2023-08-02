@@ -21,4 +21,4 @@ jobs:
             python-version: "3.8"
             activate-environment: whatever
         - name: Conda info
-          run: conda info
+          run: python scripts/ci/tasks.py setuptisdk
